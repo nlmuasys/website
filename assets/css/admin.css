@@ -1,0 +1,349 @@
+.wpjelly-subsite-checklist-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+.wpjelly-subsite-checklist-grid-item {
+  border: 1px solid #cccccc !important;
+  padding: 30px;
+  background-color: #ffffff;
+  margin: 10px;
+  position: relative;
+  font-size: 20px;
+}
+.wpjelly-subsite-checklist-grid-item h3{
+  margin: 0;
+}
+.wpjelly-notice-button {
+background-color: #4CAF50;
+border-radius: 5px;
+color: white;
+padding: .5em;
+text-decoration: none;
+}
+
+.wpjelly-notice-button:focus,
+.wpjelly-notice-button:hover {
+background-color: #4CAF50;
+color: White;
+}
+
+.wpjelly-subsite-admin-parent {
+  position: relative;
+}
+
+.wpjelly-subsite-admin-loader-wrapper {
+  display: none;
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.wpjelly-subsite-admin-loader{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px !important;
+    margin: -50px 0 0 -50px;
+    border-radius: 50% !important;
+    border: 3px solid transparent !important;
+}
+
+.wpjelly-subsite-admin-loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+   }
+
+.wpjelly-subsite-admin-loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+
+#wpjelly-subsite-checklit-progress {
+width: 100%;
+background-color: #ddd;
+}
+
+#wpjelly-subsite-checklit-progress-Bar {
+width: 1%;
+height: 30px;
+background-color: #4CAF50;
+}
+
+
+
+.wpjelly-sub-site-promotional-banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0055a8;
+  color: white !important;
+  text-align: center;
+  border-top: 4px solid #51aaf8;
+
+}
+
+/* ////////////////////////18-09-19//////////////////// */
+
+.wpjelly-theme-panel-notice-container table.form-table{
+  background:#fff;
+}
+.wpjelly-theme-panel-notice-container table.form-table tbody{
+  padding: 15px 25px;
+  overflow: hidden;
+  display: block;
+}
+.wpjelly-theme-panel-notice-container table.form-table .wpjelly-notice-button{
+  font-size:17px;
+  /* width: 100%; */
+  display: block;
+  background-color: #67cd77;
+  border-bottom:2px solid #3ba849;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.wpjelly-theme-panel-notice-container table.form-table td{
+  width:87%;
+  padding: 0 10px 15px 50px;
+}
+.wpjelly-checklist-percentage{
+  position: relative;
+    top: 15px;
+    left: -40px;
+    font-weight: 700;
+}
+#wpjelly-subsite-checklit-progress{
+  border-radius: 100px;
+}
+#wpjelly-subsite-checklit-progress-Bar {
+    height: 13px;
+    background-color: #67cd77;
+    border-radius: 100px;
+}
+.wpjelly-theme-panel-notice-container table.form-table th{
+  padding: 0;
+}
+.toplevel_page_wpjelly-theme-pannel .wrap{
+  max-width: 1274px;
+  margin: 0 auto;
+}
+.wpjelly-subsite-checklist-media-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.wpjelly-subsite-checklist-grid-item h3{
+  font-size: 18px;
+}
+
+.wpjelly-subsite-checklist-grid-item a{
+  color: #0077b0;
+  font-weight: 500;
+  text-decoration: none;
+  position: absolute;
+  bottom: 12px;
+  font-size: 16px;
+}
+
+.wpjelly-theme-panel-notice-container{
+  max-width: 1274px;
+    margin: 0 auto;
+}
+.wpjelly-subsite-content{
+  min-height: 140px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 15px 0;
+  margin: 15px 0;
+}
+.wpjelly-subsite-content p{
+  margin: 0;
+}
+
+.wpjelly-sub-site-promotional-banner-container{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.wpjelly-promotional-content ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.wpjelly-promotional-content ul li{
+  margin: 0;
+    list-style-type: disc;
+    margin-right: 23px;
+}
+.remove-wpjelly-promotional-banner{
+  position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wpjelly-promotional-content p{
+  font-size: 25px;
+  margin: 0;
+}
+.wpjelly-promotional-link{
+  background: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.wpjelly-promotional-link a{
+  text-decoration: none;
+  color: #0053a7;
+  font-weight: 600;
+}
+
+
+/* //////////////checkbox////////////////////////////// */
+
+/* The container */
+.custom-check {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 40px;
+  width: 38px;
+}
+
+/* Hide the browser's default checkbox */
+.custom-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  height: 40px;
+  width: 38px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-check input:checked ~ .checkmark {
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-check .checkmark:after {
+  left: 15px;
+    top: 8px;
+    width: 7px;
+    height: 15px;
+    border: 5px solid #01b700;
+    border-width: 0 5px 5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media only screen and (max-width:1400px){
+  .wpjelly-theme-panel-notice-container, .toplevel_page_wpjelly-theme-pannel .wrap{
+    max-width: 940px;
+  }
+  .wpjelly-theme-panel-notice-container table.form-table .wpjelly-notice-button{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width:991px){
+  .wpjelly-theme-panel-notice-container table.form-table .wpjelly-notice-button{
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .wpjelly-subsite-checklist-grid-container{
+    display: block;
+  }
+  .wpjelly-theme-panel-notice-container table.form-table .wpjelly-notice-button {
+    font-size: 12px;
+    width: 100px;
+   }
+   .wpjelly-theme-panel-notice-container table.form-table td{
+     display: table-cell;
+   }
+
+   .wpjelly-sub-site-promotional-banner{
+     position: relative;
+   }
+
+   .wpjelly-sub-site-promotional-banner-container {
+    display: block;
+    text-align: left;
+    padding: 15px;
+   }
+   .wpjelly-promotional-content ul {
+    display: block;
+    margin: 20px 0;
+    padding: 0;
+    margin-left: 20px;
+   }
+   .wpjelly-promotional-link {
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-left: 0;
+    text-align: center;
+    width: 100px;
+  }
+}
